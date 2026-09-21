@@ -13,11 +13,11 @@ import pythoncom
 # CONFIGURATION
 # =====================================================
 
-APP_FOLDER = r"data/inputForModel/File1"
+APP_FOLDER = r"data/inputs_for_model/File1"
 
 EXCEL_FOLDER = r"data/excel_files"
 
-OUTPUT_FOLDER = r"data/inputForModel/AggregateReport"
+OUTPUT_FOLDER = r"data/inputs_for_model/AggregateReport"
 
 MAPPING_FILE = r"config/mapping.json"
 
@@ -25,7 +25,7 @@ SEQUENCE_MAPPING_FILE = r"config/input_for_model_sequence_mapping.json"
 
 TARGET_SHEET = "Input for Model"
 
-TOLERANCE = 0.0001
+TOLERANCE = 0.000001
 
 
 # =====================================================

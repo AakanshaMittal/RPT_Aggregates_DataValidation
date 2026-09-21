@@ -1,6 +1,8 @@
 import json
 import importlib
 from utils.downloader import download_all_files
+
+#1st is excel workbook and 2nd value is of app in mapping
  
 CONFIG_PATH = "config/mapping.json"
 BASE_DATA_PATH = "data"
@@ -23,7 +25,7 @@ def run_tab(tab):
  
 if __name__ == "__main__":
  #  
-    tabs = [ "raOutput" , "outputSpecialityRpt" ]
+    tabs = [   "outputSpecialityRpt", "inputs_for_model" ]
  
     for tab in tabs:
         run_tab(tab)
